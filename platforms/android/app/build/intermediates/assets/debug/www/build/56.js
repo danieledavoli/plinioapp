@@ -1,6 +1,6 @@
 webpackJsonp([56],{
 
-/***/ 1927:
+/***/ 1925:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10,7 +10,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__list__ = __webpack_require__(2065);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__list__ = __webpack_require__(2063);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(988);
 // (C) Copyright 2015 Martin Dougiamas
 //
@@ -60,7 +60,7 @@ var AddonNotesListPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2065:
+/***/ 2063:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

@@ -50978,6 +50978,10 @@ ion-app.app-root ion-select.core-button-select.select-md, ion-app.app-root ion-s
   box-shadow: none;
 }
 
+ion-app.app-root page-core-login-credentials .box {
+  border-radius: 25px;
+}
+
 ion-app.app-root {
   /** Format Text - Show more styles. */
   /** Styles of elements inside the directive should be placed in format-text.scss */
@@ -57340,9 +57344,9 @@ ion-app.app-root page-core-login-forgotten-password .content {
 }
 
 ion-app.app-root page-core-login-init .scroll-content {
-  background-color: #ff5c00;
+  background-color: #175d89;
   /* Change this to add a bg image or change color */
-  background: radial-gradient(#ff7600, #ff5c00);
+  background: radial-gradient(#175d89, #175d89);
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -57368,8 +57372,8 @@ ion-app.app-root page-core-login-init .core-bglogo .core-logo {
 }
 
 ion-app.app-root page-core-login-init .core-bglogo img {
-  width: 60%;
-  max-width: 300px;
+  width: 70%;
+  max-width: 400px;
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;

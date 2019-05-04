@@ -29,6 +29,8 @@ ion-app.app-root ion-select.core-button-select.select-md, ion-app.app-root ion-s
   box-shadow: none;
 }
 
+ion-app.app-root page-core-login-credentials .box {border-radius: 25px;}
+
 ion-app.app-root {
   .text-left           { text-align: left; }
   .text-right          { text-align: right; }

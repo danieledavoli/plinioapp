@@ -132,11 +132,11 @@ $item-divider-color: $black !default;
 // --------------------------------------------------
 
 // Init screen.
-$core-color-init-screen:          #ff5c00 !default;
-$core-color-init-screen-alt:      #ff7600 !default;
+$core-color-init-screen:          $core-color !default;
+$core-color-init-screen-alt:      $core-color !default;
 $core-init-screen-spinner-color:  $white !default;
-$core-init-screen-logo-width:     60% !default;
-$core-init-screen-logo-max-width: 300px !default;
+$core-init-screen-logo-width:     70% !default;
+$core-init-screen-logo-max-width: 400px !default;
 
 $core-fixed-url:                  false !default;
 
