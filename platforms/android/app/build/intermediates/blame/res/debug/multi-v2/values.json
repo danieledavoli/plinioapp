@@ -1,0 +1,133 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/danieledavoli/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/e5a00bc45318db3d72ee95afc1835c59/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "146,158",
+                        "startColumns": "4,4",
+                        "startOffsets": "7105,8391",
+                        "endColumns": "67,166",
+                        "endOffsets": "7168,8553"
+                    }
+                },
+                {
+                    "source": "/home/danieledavoli/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/8d352fb061408cc31fa5e2fa80fc79ec/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10,150,151,152,153,154,155,156,157,159,160,161,162,163,164,165,166,167",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "166,256,336,426,516,596,677,757,7351,7456,7637,7762,7869,8049,8172,8288,8558,8746,8851,9032,9157,9332,9480,9543,9605",
+                        "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78",
+                        "endOffsets": "251,331,421,511,591,672,752,832,7451,7632,7757,7864,8044,8167,8283,8386,8741,8846,9027,9152,9327,9475,9538,9600,9679"
+                    }
+                },
+                {
+                    "source": "/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/generated/res/google-services/debug/values/values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "168,170,171,172,173,174,175,177",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "9684,9910,10022,10104,10208,10311,10431,10591",
+                        "endColumns": "143,111,81,103,102,119,100,77",
+                        "endOffsets": "9823,10017,10099,10203,10306,10426,10527,10664"
+                    }
+                },
+                {
+                    "source": "/home/danieledavoli/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.0.0.aar/dea29a7d2f306b2b8075317c1500be6b/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "169",
+                        "startColumns": "4",
+                        "startOffsets": "9828",
+                        "endColumns": "81",
+                        "endOffsets": "9905"
+                    }
+                },
+                {
+                    "source": "/home/danieledavoli/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/02bfee0f6c1f3e3493bc2a3f13744e34/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "11,12,15,17,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,147,178,179,180,185,188,193,195,196",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "837,906,1129,1260,5354,5424,5492,5564,5634,5695,5756,5817,5879,5943,6005,6066,6134,6234,6294,6360,6433,6502,6559,6611,6673,6745,6821,6856,6891,6941,6975,7010,7173,10669,10740,10857,11124,11417,11684,11880,11952",
+                        "endLines": "11,12,15,17,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,147,178,179,183,185,191,193,195,196",
+                        "endColumns": "68,62,57,73,69,67,71,69,60,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,49,33,34,34,69,70,116,12,109,12,128,71,66",
+                        "endOffsets": "901,964,1182,1329,5419,5487,5559,5629,5690,5751,5812,5874,5938,6000,6061,6129,6229,6289,6355,6428,6497,6554,6606,6668,6740,6816,6851,6886,6936,6970,7005,7040,7238,10735,10852,11053,11229,11613,11808,11947,12014"
+                    }
+                },
+                {
+                    "source": "/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "-1,2,-1",
+                        "startColumns": "-1,4,-1",
+                        "startOffsets": "-1,55,-1",
+                        "endColumns": "-1,43,-1",
+                        "endOffsets": "-1,94,-1"
+                    },
+                    "to": {
+                        "startLines": "148,149,176",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "7243,7307,10532",
+                        "endColumns": "63,43,58",
+                        "endOffsets": "7302,7346,10586"
+                    }
+                },
+                {
+                    "source": "/home/danieledavoli/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/6afef9185507215aceb913b45d2e36e7/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,197",
+                        "startColumns": "4,4",
+                        "startOffsets": "105,12019",
+                        "endLines": "2,199",
+                        "endColumns": "60,12",
+                        "endOffsets": "161,12159"
+                    }
+                },
+                {
+                    "source": "/home/danieledavoli/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/e76a37f66b8932db23c98658a70c73d6/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "13,14,16,145,184,186,187,192,194",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "969,1058,1187,7045,11058,11234,11356,11618,11813",
+                        "endColumns": "88,70,72,59,65,121,60,65,66",
+                        "endOffsets": "1053,1124,1255,7100,11119,11351,11412,11679,11875"
+                    }
+                }
+            ]
+        }
+    ]
+}

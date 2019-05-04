@@ -1,0 +1,2 @@
+# Referenced at /home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:60
+-keep class android.support.multidex.MultiDexApplication { <init>(...); }
