@@ -1,6 +1,6 @@
 webpackJsonp([6],{
 
-/***/ 1916:
+/***/ 1914:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11,7 +11,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__player__ = __webpack_require__(2052);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__player__ = __webpack_require__(2050);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -60,7 +60,7 @@ var AddonModScormPlayerPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2052:
+/***/ 2050:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -76,7 +76,7 @@ var AddonModScormPlayerPageModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_scorm__ = __webpack_require__(159);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_helper__ = __webpack_require__(429);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_scorm_sync__ = __webpack_require__(271);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__classes_data_model_12__ = __webpack_require__(2053);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__classes_data_model_12__ = __webpack_require__(2051);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -482,7 +482,7 @@ var AddonModScormPlayerPage = /** @class */ (function () {
     };
     AddonModScormPlayerPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-scorm-player',template:/*ion-inline-start:"/home/danieledavoli/moodlemobile2-3.6.1/src/addon/mod/scorm/pages/player/player.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <button *ngIf="showToc && !loadingToc && toc && toc.length" ion-button icon-only (click)="openToc($event)"[attr.aria-label]="\'addon.mod_scorm.toc\' | translate" aria-haspopup="true">\n                <ion-icon name="bookmark"></ion-icon>\n            </button>\n            <ion-spinner *ngIf="showToc && loadingToc"></ion-spinner>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <core-loading [hideUntil]="loaded">\n        <core-navigation-bar [previous]="previousSco" [next]="nextSco" (action)="loadSco($event)"></core-navigation-bar>\n        <core-iframe *ngIf="loaded && src" [src]="src" [iframeWidth]="scorm.popup ? scorm.width : undefined" [iframeHeight]="scorm.popup ? scorm.height : undefined"></core-iframe>\n        <p *ngIf="!src && errorMessage">{{ errorMessage | translate }}</p>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/home/danieledavoli/moodlemobile2-3.6.1/src/addon/mod/scorm/pages/player/player.html"*/,
+            selector: 'page-addon-mod-scorm-player',template:/*ion-inline-start:"/home/danieledavoli/plinioapp/src/addon/mod/scorm/pages/player/player.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <button *ngIf="showToc && !loadingToc && toc && toc.length" ion-button icon-only (click)="openToc($event)"[attr.aria-label]="\'addon.mod_scorm.toc\' | translate" aria-haspopup="true">\n                <ion-icon name="bookmark"></ion-icon>\n            </button>\n            <ion-spinner *ngIf="showToc && loadingToc"></ion-spinner>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <core-loading [hideUntil]="loaded">\n        <core-navigation-bar [previous]="previousSco" [next]="nextSco" (action)="loadSco($event)"></core-navigation-bar>\n        <core-iframe *ngIf="loaded && src" [src]="src" [iframeWidth]="scorm.popup ? scorm.width : undefined" [iframeHeight]="scorm.popup ? scorm.height : undefined"></core-iframe>\n        <p *ngIf="!src && errorMessage">{{ errorMessage | translate }}</p>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/home/danieledavoli/plinioapp/src/addon/mod/scorm/pages/player/player.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* ModalController */], __WEBPACK_IMPORTED_MODULE_2__providers_events__["a" /* CoreEventsProvider */],
             __WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_sync__["a" /* CoreSyncProvider */],
@@ -497,7 +497,7 @@ var AddonModScormPlayerPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2053:
+/***/ 2051:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

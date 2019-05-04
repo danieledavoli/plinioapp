@@ -1,6 +1,6 @@
 webpackJsonp([91],{
 
-/***/ 1889:
+/***/ 1890:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11,7 +11,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(947);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(2024);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(2025);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -60,7 +60,7 @@ var AddonModFeedbackIndexPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2024:
+/***/ 2025:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -118,7 +118,7 @@ var AddonModFeedbackIndexPage = /** @class */ (function () {
     ], AddonModFeedbackIndexPage.prototype, "feedbackComponent", void 0);
     AddonModFeedbackIndexPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-feedback-index',template:/*ion-inline-start:"/home/danieledavoli/moodlemobile2-3.6.1/src/addon/mod/feedback/pages/index/index.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <!-- The buttons defined by the component will be added in here. -->\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="feedbackComponent.loaded" (ionRefresh)="feedbackComponent.doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <addon-mod-feedback-index [module]="module" [courseId]="courseId" [group]="selectedGroup" [tab]="selectedTab" (dataRetrieved)="updateData($event)"></addon-mod-feedback-index>\n</ion-content>\n'/*ion-inline-end:"/home/danieledavoli/moodlemobile2-3.6.1/src/addon/mod/feedback/pages/index/index.html"*/,
+            selector: 'page-addon-mod-feedback-index',template:/*ion-inline-start:"/home/danieledavoli/plinioapp/src/addon/mod/feedback/pages/index/index.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <!-- The buttons defined by the component will be added in here. -->\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="feedbackComponent.loaded" (ionRefresh)="feedbackComponent.doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <addon-mod-feedback-index [module]="module" [courseId]="courseId" [group]="selectedGroup" [tab]="selectedTab" (dataRetrieved)="updateData($event)"></addon-mod-feedback-index>\n</ion-content>\n'/*ion-inline-end:"/home/danieledavoli/plinioapp/src/addon/mod/feedback/pages/index/index.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */]])
     ], AddonModFeedbackIndexPage);

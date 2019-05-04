@@ -1,6 +1,6 @@
 webpackJsonp([58],{
 
-/***/ 1924:
+/***/ 1923:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10,7 +10,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__phase__ = __webpack_require__(2061);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__phase__ = __webpack_require__(2060);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_compile_components_compile_html_compile_html_module__ = __webpack_require__(400);
 // (C) Copyright 2015 Martin Dougiamas
 //
@@ -60,7 +60,7 @@ var AddonModWorkshopPhaseInfoPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2061:
+/***/ 2060:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -139,7 +139,7 @@ var AddonModWorkshopPhaseInfoPage = /** @class */ (function () {
     };
     AddonModWorkshopPhaseInfoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-workshop-phase-info',template:/*ion-inline-start:"/home/danieledavoli/moodlemobile2-3.6.1/src/addon/mod/workshop/pages/phase/phase.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.mod_workshop.userplan\' | translate }}</ion-title>\n        <ion-buttons end>\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n                <ion-icon name="close"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-list>\n        <ng-container *ngFor="let phase of phases">\n            <ion-item-divider [class.core-workshop-phase-selected]="workshopPhase == phase.code">\n                <h2>{{ phase.title }}</h2>\n                <p text-wrap *ngIf="workshopPhase == phase.code">{{ \'addon.mod_workshop.userplancurrentphase\' | translate }}</p>\n            </ion-item-divider>\n            <a ion-item text-wrap *ngIf="phase.switchUrl" [href]="phase.switchUrl" detail-none>\n                <ion-icon item-start name="swap"></ion-icon>\n                {{ \'addon.mod_workshop.switchphase\' + phase.code | translate }}\n                <ion-icon item-end name="open"></ion-icon>\n            </a>\n            <a ion-item text-wrap *ngFor="let task of phase.tasks" [class.item-dimmed]="phase.code != workshopPhase" (click)="runTask(task)" detail-none>\n                <ion-icon item-start name="radio-button-off" *ngIf="task.completed == null"></ion-icon>\n                <ion-icon item-start name="close-circle" color="danger" *ngIf="task.completed == \'\'"></ion-icon>\n                <ion-icon item-start name="information-circle" color="info" *ngIf="task.completed == \'info\'"></ion-icon>\n                <ion-icon item-start name="checkmark-circle" color="success" *ngIf="task.completed == \'1\'"></ion-icon>\n\n                <h2 text-wrap>{{task.title}}</h2>\n                <p *ngIf="task.details"><core-format-text [text]="task.details"></core-format-text></p>\n                <ion-icon item-end *ngIf="task.link && task.code != \'submit\'" name="open"></ion-icon>\n            </a>\n        </ng-container>\n    </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/danieledavoli/moodlemobile2-3.6.1/src/addon/mod/workshop/pages/phase/phase.html"*/,
+            selector: 'page-addon-mod-workshop-phase-info',template:/*ion-inline-start:"/home/danieledavoli/plinioapp/src/addon/mod/workshop/pages/phase/phase.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.mod_workshop.userplan\' | translate }}</ion-title>\n        <ion-buttons end>\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n                <ion-icon name="close"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-list>\n        <ng-container *ngFor="let phase of phases">\n            <ion-item-divider [class.core-workshop-phase-selected]="workshopPhase == phase.code">\n                <h2>{{ phase.title }}</h2>\n                <p text-wrap *ngIf="workshopPhase == phase.code">{{ \'addon.mod_workshop.userplancurrentphase\' | translate }}</p>\n            </ion-item-divider>\n            <a ion-item text-wrap *ngIf="phase.switchUrl" [href]="phase.switchUrl" detail-none>\n                <ion-icon item-start name="swap"></ion-icon>\n                {{ \'addon.mod_workshop.switchphase\' + phase.code | translate }}\n                <ion-icon item-end name="open"></ion-icon>\n            </a>\n            <a ion-item text-wrap *ngFor="let task of phase.tasks" [class.item-dimmed]="phase.code != workshopPhase" (click)="runTask(task)" detail-none>\n                <ion-icon item-start name="radio-button-off" *ngIf="task.completed == null"></ion-icon>\n                <ion-icon item-start name="close-circle" color="danger" *ngIf="task.completed == \'\'"></ion-icon>\n                <ion-icon item-start name="information-circle" color="info" *ngIf="task.completed == \'info\'"></ion-icon>\n                <ion-icon item-start name="checkmark-circle" color="success" *ngIf="task.completed == \'1\'"></ion-icon>\n\n                <h2 text-wrap>{{task.title}}</h2>\n                <p *ngIf="task.details"><core-format-text [text]="task.details"></core-format-text></p>\n                <ion-icon item-end *ngIf="task.link && task.code != \'submit\'" name="open"></ion-icon>\n            </a>\n        </ng-container>\n    </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/danieledavoli/plinioapp/src/addon/mod/workshop/pages/phase/phase.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["E" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__providers_utils_utils__["a" /* CoreUtilsProvider */]])
     ], AddonModWorkshopPhaseInfoPage);

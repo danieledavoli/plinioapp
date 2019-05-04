@@ -1,6 +1,6 @@
 webpackJsonp([96],{
 
-/***/ 1886:
+/***/ 1884:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15,7 +15,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_compile_components_compile_html_compile_html_module__ = __webpack_require__(400);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__core_rating_components_components_module__ = __webpack_require__(958);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_components_module__ = __webpack_require__(399);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__entry__ = __webpack_require__(2021);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__entry__ = __webpack_require__(2019);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -72,7 +72,7 @@ var AddonModDataEntryPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2021:
+/***/ 2019:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

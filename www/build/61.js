@@ -1,6 +1,6 @@
 webpackJsonp([61],{
 
-/***/ 1922:
+/***/ 1921:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12,7 +12,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(403);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__assessment__ = __webpack_require__(2059);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__assessment__ = __webpack_require__(2058);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -63,7 +63,7 @@ var AddonModWorkshopAssessmentPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2059:
+/***/ 2058:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

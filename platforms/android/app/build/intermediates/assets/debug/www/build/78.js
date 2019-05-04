@@ -1,6 +1,6 @@
 webpackJsonp([78],{
 
-/***/ 1902:
+/***/ 1901:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModLessonPasswordModalPageModule", function() { return AddonModLessonPasswordModalPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__password_modal__ = __webpack_require__(2037);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__password_modal__ = __webpack_require__(2036);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
@@ -60,7 +60,7 @@ var AddonModLessonPasswordModalPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2037:
+/***/ 2036:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -117,7 +117,7 @@ var AddonModLessonPasswordModalPage = /** @class */ (function () {
     };
     AddonModLessonPasswordModalPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-mod-lesson-password-modal',template:/*ion-inline-start:"/home/danieledavoli/moodlemobile2-3.6.1/src/addon/mod/lesson/pages/password-modal/password-modal.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'core.login.password\' | translate }}</ion-title>\n        <ion-buttons end>\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n                <ion-icon name="close"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content padding class="addon-mod_lesson-password-modal">\n    <form ion-list (ngSubmit)="submitPassword($event, passwordinput)">\n        <ion-item>\n            <core-show-password item-content [name]="\'password\'">\n                <ion-label>{{ \'addon.mod_lesson.enterpassword\' | translate }}</ion-label>\n                <ion-input name="password" type="password" placeholder="{{ \'core.login.password\' | translate }}" [core-auto-focus] #passwordinput [clearOnEdit]="false"></ion-input>\n            </core-show-password>\n        </ion-item>\n        <ion-item>\n            <button ion-button block type="submit" icon-end>\n                {{ \'addon.mod_lesson.continue\' | translate }}\n                <ion-icon name="arrow-forward" md="ios-arrow-forward"></ion-icon>\n            </button>\n        </ion-item>\n    </form>\n</ion-content>\n'/*ion-inline-end:"/home/danieledavoli/moodlemobile2-3.6.1/src/addon/mod/lesson/pages/password-modal/password-modal.html"*/,
+            selector: 'page-addon-mod-lesson-password-modal',template:/*ion-inline-start:"/home/danieledavoli/plinioapp/src/addon/mod/lesson/pages/password-modal/password-modal.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'core.login.password\' | translate }}</ion-title>\n        <ion-buttons end>\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n                <ion-icon name="close"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content padding class="addon-mod_lesson-password-modal">\n    <form ion-list (ngSubmit)="submitPassword($event, passwordinput)">\n        <ion-item>\n            <core-show-password item-content [name]="\'password\'">\n                <ion-label>{{ \'addon.mod_lesson.enterpassword\' | translate }}</ion-label>\n                <ion-input name="password" type="password" placeholder="{{ \'core.login.password\' | translate }}" [core-auto-focus] #passwordinput [clearOnEdit]="false"></ion-input>\n            </core-show-password>\n        </ion-item>\n        <ion-item>\n            <button ion-button block type="submit" icon-end>\n                {{ \'addon.mod_lesson.continue\' | translate }}\n                <ion-icon name="arrow-forward" md="ios-arrow-forward"></ion-icon>\n            </button>\n        </ion-item>\n    </form>\n</ion-content>\n'/*ion-inline-end:"/home/danieledavoli/plinioapp/src/addon/mod/lesson/pages/password-modal/password-modal.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["E" /* ViewController */]])
     ], AddonModLessonPasswordModalPage);

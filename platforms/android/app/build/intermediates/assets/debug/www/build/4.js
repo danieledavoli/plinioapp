@@ -1,6 +1,6 @@
 webpackJsonp([4],{
 
-/***/ 1929:
+/***/ 1928:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12,8 +12,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(61);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(2067);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__list__ = __webpack_require__(2069);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(2066);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__list__ = __webpack_require__(2068);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -66,7 +66,7 @@ var AddonNotificationsListPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2067:
+/***/ 2066:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -75,7 +75,7 @@ var AddonNotificationsListPageModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__actions_actions__ = __webpack_require__(2068);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__actions_actions__ = __webpack_require__(2067);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -126,7 +126,7 @@ var AddonNotificationsComponentsModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2068:
+/***/ 2067:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -184,7 +184,7 @@ var AddonNotificationsActionsComponent = /** @class */ (function () {
     ], AddonNotificationsActionsComponent.prototype, "courseId", void 0);
     AddonNotificationsActionsComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'addon-notifications-actions',template:/*ion-inline-start:"/home/danieledavoli/moodlemobile2-3.6.1/src/addon/notifications/components/actions/addon-notifications-actions.html"*/'<ion-row *ngIf="actions && actions.length > 0" justify-content-around>\n    <ion-col *ngFor="let action of actions">\n        <button ion-button icon-left clear small block (click)="action.action()">\n            <ion-icon name="{{action.icon}}"></ion-icon>\n            {{ action.message | translate }}\n        </button>\n    </ion-col>\n</ion-row>\n'/*ion-inline-end:"/home/danieledavoli/moodlemobile2-3.6.1/src/addon/notifications/components/actions/addon-notifications-actions.html"*/,
+            selector: 'addon-notifications-actions',template:/*ion-inline-start:"/home/danieledavoli/plinioapp/src/addon/notifications/components/actions/addon-notifications-actions.html"*/'<ion-row *ngIf="actions && actions.length > 0" justify-content-around>\n    <ion-col *ngFor="let action of actions">\n        <button ion-button icon-left clear small block (click)="action.action()">\n            <ion-icon name="{{action.icon}}"></ion-icon>\n            {{ action.message | translate }}\n        </button>\n    </ion-col>\n</ion-row>\n'/*ion-inline-end:"/home/danieledavoli/plinioapp/src/addon/notifications/components/actions/addon-notifications-actions.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__core_contentlinks_providers_delegate__["a" /* CoreContentLinksDelegate */]])
     ], AddonNotificationsActionsComponent);
@@ -195,7 +195,7 @@ var AddonNotificationsActionsComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2069:
+/***/ 2068:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -434,7 +434,7 @@ var AddonNotificationsListPage = /** @class */ (function () {
     };
     AddonNotificationsListPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-notifications-list',template:/*ion-inline-start:"/home/danieledavoli/moodlemobile2-3.6.1/src/addon/notifications/pages/list/list.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.notifications.notifications\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="notificationsLoaded" (ionRefresh)="refreshNotifications($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="notificationsLoaded">\n        <div padding *ngIf="canMarkAllNotificationsAsRead">\n            <button ion-button block (click)="markAllNotificationsAsRead()" color="light" icon-start *ngIf="!loadingMarkAllNotificationsAsRead">\n                <core-icon name="fa-check"></core-icon>\n                {{ \'addon.notifications.markallread\' | translate }}\n            </button>\n            <button ion-button block color="light" icon-start *ngIf="loadingMarkAllNotificationsAsRead">\n                <ion-spinner></ion-spinner>\n            </button>\n        </div>\n        <ion-card *ngFor="let notification of notifications">\n            <ion-item>\n                <ion-avatar core-user-avatar [user]="notification" item-start [profileUrl]="notification.profileimageurlfrom" [fullname]="notification.userfromfullname" [userId]="notification.useridfrom"></ion-avatar>\n                <h2>{{notification.userfromfullname}}</h2>\n                <div item-end *ngIf="!notification.timeread"><core-icon name="fa-circle" color="primary"></core-icon></div>\n                <p>{{notification.timecreated | coreDateDayOrTime}}</p>\n            </ion-item>\n            <ion-item text-wrap>\n                <p><core-format-text [text]="notification.mobiletext | coreCreateLinks"></core-format-text></p>\n            </ion-item>\n            <addon-notifications-actions [contextUrl]="notification.contexturl" [courseId]="notification.courseid"></addon-notifications-actions>\n        </ion-card>\n        <core-empty-box *ngIf="!notifications || notifications.length <= 0" icon="notifications" [message]="\'addon.notifications.therearentnotificationsyet\' | translate"></core-empty-box>\n        <core-infinite-loading [enabled]="canLoadMore" (action)="loadMoreNotifications($event)" [error]="loadMoreError"></core-infinite-loading>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/home/danieledavoli/moodlemobile2-3.6.1/src/addon/notifications/pages/list/list.html"*/,
+            selector: 'page-addon-notifications-list',template:/*ion-inline-start:"/home/danieledavoli/plinioapp/src/addon/notifications/pages/list/list.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.notifications.notifications\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="notificationsLoaded" (ionRefresh)="refreshNotifications($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="notificationsLoaded">\n        <div padding *ngIf="canMarkAllNotificationsAsRead">\n            <button ion-button block (click)="markAllNotificationsAsRead()" color="light" icon-start *ngIf="!loadingMarkAllNotificationsAsRead">\n                <core-icon name="fa-check"></core-icon>\n                {{ \'addon.notifications.markallread\' | translate }}\n            </button>\n            <button ion-button block color="light" icon-start *ngIf="loadingMarkAllNotificationsAsRead">\n                <ion-spinner></ion-spinner>\n            </button>\n        </div>\n        <ion-card *ngFor="let notification of notifications">\n            <ion-item>\n                <ion-avatar core-user-avatar [user]="notification" item-start [profileUrl]="notification.profileimageurlfrom" [fullname]="notification.userfromfullname" [userId]="notification.useridfrom"></ion-avatar>\n                <h2>{{notification.userfromfullname}}</h2>\n                <div item-end *ngIf="!notification.timeread"><core-icon name="fa-circle" color="primary"></core-icon></div>\n                <p>{{notification.timecreated | coreDateDayOrTime}}</p>\n            </ion-item>\n            <ion-item text-wrap>\n                <p><core-format-text [text]="notification.mobiletext | coreCreateLinks"></core-format-text></p>\n            </ion-item>\n            <addon-notifications-actions [contextUrl]="notification.contexturl" [courseId]="notification.courseid"></addon-notifications-actions>\n        </ion-card>\n        <core-empty-box *ngIf="!notifications || notifications.length <= 0" icon="notifications" [message]="\'addon.notifications.therearentnotificationsyet\' | translate"></core-empty-box>\n        <core-infinite-loading [enabled]="canLoadMore" (action)="loadMoreNotifications($event)" [error]="loadMoreError"></core-infinite-loading>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/home/danieledavoli/plinioapp/src/addon/notifications/pages/list/list.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_events__["a" /* CoreEventsProvider */],
             __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_text__["a" /* CoreTextUtilsProvider */],

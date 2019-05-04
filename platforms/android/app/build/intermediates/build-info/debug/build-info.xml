@@ -6,9 +6,9 @@
     density="420dpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1556912571852"
+    timestamp="1556972316531"
     token="-8455367180100992227"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
@@ -24,7 +24,43 @@
         duration="0" />
 
     <artifact
-        location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
         location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
@@ -33,39 +69,72 @@
         location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
-        location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
     <artifact
         location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
     <artifact
         location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
         type="SPLIT" />
     <artifact
-        location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
         location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/outputs/apk/debug/app-debug.apk"
+        location="/home/danieledavoli/plinioapp/platforms/android/app/build/outputs/apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1556912571852"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1556972316531"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
@@ -74,31 +143,28 @@
             location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
             location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/home/danieledavoli/plinioapp/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
             location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/danieledavoli/moodlemobile2-3.6.1/platforms/android/app/build/outputs/apk/debug/app-debug.apk"
+            location="/home/danieledavoli/plinioapp/platforms/android/app/build/outputs/apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
 

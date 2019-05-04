@@ -111,7 +111,7 @@ var AddonBlogEntriesPage = /** @class */ (function () {
     }
     AddonBlogEntriesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-blog-entries',template:/*ion-inline-start:"/home/danieledavoli/moodlemobile2-3.6.1/src/addon/blog/pages/entries/entries.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ title | translate }}</ion-title>\n        <ion-buttons end></ion-buttons>\n    </ion-navbar>\n</ion-header>\n<addon-blog-entries class="core-avoid-header" [courseId]="courseId" [userId]="userId" [cmId]="cmId" [entryId]="entryId" [groupId]="groupId" [tagId]="tagId"></addon-blog-entries>\n'/*ion-inline-end:"/home/danieledavoli/moodlemobile2-3.6.1/src/addon/blog/pages/entries/entries.html"*/,
+            selector: 'page-addon-blog-entries',template:/*ion-inline-start:"/home/danieledavoli/plinioapp/src/addon/blog/pages/entries/entries.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ title | translate }}</ion-title>\n        <ion-buttons end></ion-buttons>\n    </ion-navbar>\n</ion-header>\n<addon-blog-entries class="core-avoid-header" [courseId]="courseId" [userId]="userId" [cmId]="cmId" [entryId]="entryId" [groupId]="groupId" [tagId]="tagId"></addon-blog-entries>\n'/*ion-inline-end:"/home/danieledavoli/plinioapp/src/addon/blog/pages/entries/entries.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* NavParams */]])
     ], AddonBlogEntriesPage);

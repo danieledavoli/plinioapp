@@ -86,6 +86,6 @@ export class CoreConfigConstants {
     static skipssoconfirmation = false;
     static forcedefaultlanguage = false;
     static privacypolicy = 'https://moodle.org/mod/page/view.php?id=8148';
-    static compilationtime = 1556926835014;
-    static lastcommit = '';
+    static compilationtime = 1556971249941;
+    static lastcommit = 'c4fa361235fd39c0d2170f8a90afb26758798b1b';
 }
